@@ -1,0 +1,6 @@
+{
+  "version": 999,
+  "parts": [],
+  "animation": {"duration": 1.2, "event_time": 0.72, "keys": []},
+  "effect": {"color": [1.0, 0.52, 0.17], "count": 24, "intensity": 1.0, "duration": 0.55}
+}

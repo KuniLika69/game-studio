@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "key": "studio-warm-light",
+  "title": "Инструмент вечернего света",
+  "capability": {
+    "kind": "set_lighting",
+    "label": "Применить вечерний свет",
+    "daylight": 0.58,
+    "interior_gain": 1.65
+  }
+}

@@ -1,0 +1,1033 @@
+{
+  "version": 21,
+  "parts": [],
+  "animation": {
+    "duration": 1.2,
+    "event_time": 0.72,
+    "keys": []
+  },
+  "effect": {
+    "color": [
+      1.0,
+      0.52,
+      0.17
+    ],
+    "count": 24,
+    "intensity": 1.0,
+    "duration": 0.55
+  },
+  "audio": {
+    "sounds": [],
+    "footsteps": {
+      "enabled": true,
+      "default_surface": "Gravel",
+      "stride": 0.58,
+      "gain": 0.72,
+      "zones": []
+    },
+    "next_id": 0
+  },
+  "sprite_pixels": [],
+  "sprite_art": {
+    "drawn_only": false,
+    "use_on_plan": false,
+    "frames": 1,
+    "fps": 8
+  },
+  "world": {
+    "objects": [
+      {
+        "id": 1099511627776,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -3.3,
+          0.0,
+          0.4
+        ],
+        "size": [
+          2.415,
+          3.5,
+          2.2749999
+        ],
+        "color": [
+          0.19550002,
+          0.323,
+          0.1615
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627777,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -4.2,
+          0.0,
+          -4.1
+        ],
+        "size": [
+          2.9325,
+          4.25,
+          2.7624998
+        ],
+        "color": [
+          0.2116,
+          0.3496,
+          0.1748
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627778,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -3.33,
+          0.0,
+          -7.6
+        ],
+        "size": [
+          2.277,
+          3.3,
+          2.145
+        ],
+        "color": [
+          0.22770001,
+          0.3762,
+          0.1881
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627779,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -4.4,
+          0.0,
+          -11.5
+        ],
+        "size": [
+          3.105,
+          4.5,
+          2.925
+        ],
+        "color": [
+          0.24380001,
+          0.40280002,
+          0.20140001
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627780,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -3.73,
+          0.0,
+          -13.7
+        ],
+        "size": [
+          2.622,
+          3.8,
+          2.4699998
+        ],
+        "color": [
+          0.2599,
+          0.4294,
+          0.2147
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627781,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          -4.02,
+          0.0,
+          -19.0
+        ],
+        "size": [
+          2.8979998,
+          4.2,
+          2.7299998
+        ],
+        "color": [
+          0.19550002,
+          0.323,
+          0.1615
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627782,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          3.01,
+          0.0,
+          2.9
+        ],
+        "size": [
+          2.691,
+          3.9,
+          2.535
+        ],
+        "color": [
+          0.2116,
+          0.3496,
+          0.1748
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627783,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          4.3,
+          0.0,
+          -4.35
+        ],
+        "size": [
+          1.7939999,
+          2.6,
+          1.6899998
+        ],
+        "color": [
+          0.22770001,
+          0.3762,
+          0.1881
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627784,
+        "name": "Ива у дельты",
+        "kind": "Tree",
+        "position": [
+          3.79,
+          0.0,
+          -12.4
+        ],
+        "size": [
+          2.76,
+          4.0,
+          2.6
+        ],
+        "color": [
+          0.24380001,
+          0.40280002,
+          0.20140001
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627785,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          -2.35,
+          0.02,
+          -1.2
+        ],
+        "size": [
+          1.4749999,
+          0.8125,
+          1.0375
+        ],
+        "color": [
+          0.22410001,
+          0.2573,
+          0.2739
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627786,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          2.98,
+          0.02,
+          -2.9
+        ],
+        "size": [
+          0.6608,
+          0.364,
+          0.4648
+        ],
+        "color": [
+          0.2484,
+          0.2852,
+          0.30359998
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627787,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          -3.04,
+          0.02,
+          -5.4
+        ],
+        "size": [
+          1.4396,
+          0.793,
+          1.0126
+        ],
+        "color": [
+          0.2727,
+          0.3131,
+          0.33330002
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627788,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          3.17,
+          0.02,
+          -7.8
+        ],
+        "size": [
+          1.1682,
+          0.6435,
+          0.8217
+        ],
+        "color": [
+          0.29700002,
+          0.34100002,
+          0.36300004
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627789,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          2.83,
+          0.02,
+          -9.5
+        ],
+        "size": [
+          0.93219995,
+          0.5135,
+          0.6557
+        ],
+        "color": [
+          0.22410001,
+          0.2573,
+          0.2739
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627790,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          -2.07,
+          0.02,
+          -12.83
+        ],
+        "size": [
+          1.2389998,
+          0.68249995,
+          0.87149996
+        ],
+        "color": [
+          0.2484,
+          0.2852,
+          0.30359998
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627791,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          3.44,
+          0.02,
+          -15.9
+        ],
+        "size": [
+          1.6048,
+          0.884,
+          1.1288
+        ],
+        "color": [
+          0.2727,
+          0.3131,
+          0.33330002
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627792,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          3.27,
+          0.02,
+          -17.3
+        ],
+        "size": [
+          0.9675999,
+          0.533,
+          0.6806
+        ],
+        "color": [
+          0.29700002,
+          0.34100002,
+          0.36300004
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627793,
+        "name": "Валуны дельты",
+        "kind": "Rock",
+        "position": [
+          -2.8,
+          0.02,
+          -18.1
+        ],
+        "size": [
+          1.7817999,
+          0.98149997,
+          1.2533
+        ],
+        "color": [
+          0.22410001,
+          0.2573,
+          0.2739
+        ],
+        "solid": true
+      },
+      {
+        "id": 1099511627794,
+        "name": "Медный пост у отмели",
+        "kind": "Platform",
+        "position": [
+          -1.87,
+          0.0,
+          -4.75
+        ],
+        "size": [
+          0.17,
+          1.17,
+          0.17
+        ],
+        "color": [
+          0.29,
+          0.26,
+          0.18
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627795,
+        "name": "Медный пост у отмели",
+        "kind": "Crate",
+        "position": [
+          -1.87,
+          1.04,
+          -4.75
+        ],
+        "size": [
+          0.29,
+          0.26,
+          0.24
+        ],
+        "color": [
+          0.83,
+          0.52,
+          0.26
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627796,
+        "name": "Медный пост у отмели",
+        "kind": "Platform",
+        "position": [
+          0.07000005,
+          0.0,
+          -4.75
+        ],
+        "size": [
+          0.17,
+          1.17,
+          0.17
+        ],
+        "color": [
+          0.29,
+          0.26,
+          0.18
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627797,
+        "name": "Медный пост у отмели",
+        "kind": "Crate",
+        "position": [
+          0.07000005,
+          1.04,
+          -4.75
+        ],
+        "size": [
+          0.29,
+          0.26,
+          0.24
+        ],
+        "color": [
+          0.83,
+          0.52,
+          0.26
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627798,
+        "name": "Маяк у переправы",
+        "kind": "Platform",
+        "position": [
+          -0.71000004,
+          0.0,
+          -14.3
+        ],
+        "size": [
+          0.17,
+          1.17,
+          0.17
+        ],
+        "color": [
+          0.29,
+          0.26,
+          0.18
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627799,
+        "name": "Маяк у переправы",
+        "kind": "Crate",
+        "position": [
+          -0.71000004,
+          1.04,
+          -14.3
+        ],
+        "size": [
+          0.29,
+          0.26,
+          0.24
+        ],
+        "color": [
+          0.83,
+          0.52,
+          0.26
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627800,
+        "name": "Маяк у переправы",
+        "kind": "Platform",
+        "position": [
+          1.23,
+          0.0,
+          -14.3
+        ],
+        "size": [
+          0.17,
+          1.17,
+          0.17
+        ],
+        "color": [
+          0.29,
+          0.26,
+          0.18
+        ],
+        "solid": false
+      },
+      {
+        "id": 1099511627801,
+        "name": "Маяк у переправы",
+        "kind": "Crate",
+        "position": [
+          1.23,
+          1.04,
+          -14.3
+        ],
+        "size": [
+          0.29,
+          0.26,
+          0.24
+        ],
+        "color": [
+          0.83,
+          0.52,
+          0.26
+        ],
+        "solid": false
+      }
+    ],
+    "models": [
+      {
+        "material": {
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "roughness": 0.84,
+          "normal_strength": 1.0,
+          "emissive_strength": 1.0,
+          "emissive_color": null
+        },
+        "id": 562949953421312,
+        "label": "Дельта · первым светом",
+        "source": {
+          "Imported": "39793291649ee12e35f1857041cf87a580550e9671053a68b3946f2c1fd50588"
+        },
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "solid": false
+      }
+    ],
+    "buildings": [],
+    "next_id": 1099511627802,
+    "next_building_id": 0,
+    "next_key_id": 0
+  },
+  "avatar": {
+    "source": "Ryan",
+    "name": "Артём Молвин",
+    "height": 1.82,
+    "yaw": 0.0,
+    "idle": 0,
+    "walk": 1,
+    "run": 2,
+    "jump": null,
+    "sit": null,
+    "human_style": {
+      "face_width": 0.0,
+      "jaw_width": 0.0,
+      "nose_length": 0.0,
+      "hair_volume": 0.0,
+      "jacket_fit": 0.0,
+      "trouser_fit": 0.0,
+      "jacket_tint": [
+        0.2,
+        0.39,
+        0.37
+      ],
+      "trouser_tint": [
+        0.49,
+        0.38,
+        0.28
+      ],
+      "hairstyle": "Cropped",
+      "garment": "Sweater",
+      "smile": 0.0,
+      "brow_raise": 0.0,
+      "mouth_open": 0.0,
+      "blink": 0.0
+    },
+    "animation_speed": 1.0,
+    "bone_keys": []
+  },
+  "npcs": [],
+  "story": {
+    "conversations": [],
+    "quests": [
+      {
+        "id": 1,
+        "title": "Пассат · Переправа",
+        "description": "Отметь медный пост и маяк клавишей F.",
+        "completion": "Переправа проверена.",
+        "objective": {
+          "Rules": {
+            "completion_stage": 1
+          }
+        }
+      }
+    ],
+    "next_quest_id": 0,
+    "next_choice_id": 0
+  },
+  "rules": {
+    "rules": [
+      {
+        "id": 1,
+        "name": "Первая отметка",
+        "enabled": true,
+        "once": true,
+        "event": {
+          "GameAction": {
+            "action": "Mark"
+          }
+        },
+        "conditions": [
+          {
+            "InZone": {
+              "zone_id": 1
+            }
+          }
+        ],
+        "actions": [
+          {
+            "AddCounter": {
+              "counter_id": 1,
+              "delta": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Две отметки · результат",
+        "enabled": true,
+        "once": true,
+        "event": {
+          "GameAction": {
+            "action": "Mark"
+          }
+        },
+        "conditions": [
+          {
+            "InZone": {
+              "zone_id": 1
+            }
+          },
+          {
+            "Counter": {
+              "counter_id": 1,
+              "comparison": "AtLeast",
+              "value": 2
+            }
+          },
+          {
+            "Flag": {
+              "flag_id": 1,
+              "value": false
+            }
+          }
+        ],
+        "actions": [
+          {
+            "SetQuestStage": {
+              "quest_id": 1,
+              "stage": 1
+            }
+          },
+          {
+            "SetFlag": {
+              "flag_id": 1,
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Вторая отметка",
+        "enabled": true,
+        "once": true,
+        "event": {
+          "GameAction": {
+            "action": "Mark"
+          }
+        },
+        "conditions": [
+          {
+            "InZone": {
+              "zone_id": 2
+            }
+          }
+        ],
+        "actions": [
+          {
+            "AddCounter": {
+              "counter_id": 1,
+              "delta": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Две отметки · результат",
+        "enabled": true,
+        "once": true,
+        "event": {
+          "GameAction": {
+            "action": "Mark"
+          }
+        },
+        "conditions": [
+          {
+            "InZone": {
+              "zone_id": 2
+            }
+          },
+          {
+            "Counter": {
+              "counter_id": 1,
+              "comparison": "AtLeast",
+              "value": 2
+            }
+          },
+          {
+            "Flag": {
+              "flag_id": 1,
+              "value": false
+            }
+          }
+        ],
+        "actions": [
+          {
+            "SetQuestStage": {
+              "quest_id": 1,
+              "stage": 1
+            }
+          },
+          {
+            "SetFlag": {
+              "flag_id": 1,
+              "value": true
+            }
+          }
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "id": 1,
+        "name": "Две отметки · итог 1",
+        "initially_set": false
+      }
+    ],
+    "zones": [
+      {
+        "id": 1,
+        "name": "Медный пост у отмели",
+        "position": [
+          -0.9,
+          0.0,
+          -4.75
+        ],
+        "size": [
+          1.9,
+          2.1,
+          1.9
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Маяк у переправы",
+        "position": [
+          0.26,
+          0.0,
+          -14.3
+        ],
+        "size": [
+          1.9,
+          2.1,
+          1.9
+        ]
+      }
+    ],
+    "counters": [
+      {
+        "id": 1,
+        "name": "Калибровки",
+        "initial": 0
+      }
+    ],
+    "timers": [],
+    "templates": [
+      {
+        "id": 1,
+        "name": "Две калибровки",
+        "counter_name": "Калибровки",
+        "mark_names": [
+          "Первая отметка",
+          "Вторая отметка"
+        ]
+      }
+    ],
+    "initially_disabled_objects": [],
+    "next_rule": 5,
+    "next_flag": 2,
+    "next_zone": 3,
+    "next_counter": 2,
+    "next_timer": 0,
+    "next_template": 2,
+    "next_rule_template": 0
+  },
+  "wind_rotor": {
+    "position": [
+      2.82,
+      2.15,
+      -14.75
+    ],
+    "radius": 1.27,
+    "response": 0.87,
+    "enabled_by": null
+  },
+  "environment": {
+    "time": {
+      "start_hour": 8.7,
+      "hours_per_second": 0.0,
+      "noon_bearing": 67.0
+    },
+    "weather": {
+      "initial": "Clear",
+      "cues": [],
+      "next_id": 0
+    },
+    "ground_mist_height": 0.0,
+    "prevailing_direction": [
+      0.6,
+      0.0,
+      0.8
+    ],
+    "winds": [
+      {
+        "id": 2,
+        "name": "Дневной бриз с дельты",
+        "center": [
+          0.0,
+          3.0,
+          -9.0
+        ],
+        "size": [
+          24.0,
+          10.0,
+          41.0
+        ],
+        "direction": [
+          -0.73,
+          0.0,
+          0.68
+        ],
+        "speed": 4.9,
+        "gust": 2.25,
+        "gust_hz": 0.33,
+        "feather": 0.8
+      }
+    ],
+    "waters": [
+      {
+        "id": 1,
+        "name": "Русло дельты",
+        "center": [
+          8.35,
+          -8.2
+        ],
+        "size": [
+          9.3,
+          28.4
+        ],
+        "floor_y": -0.6,
+        "max_level": 1.4,
+        "level": 0.18,
+        "current": [
+          0.08,
+          -0.57
+        ],
+        "buoyancy": 1.55,
+        "linear_drag": 3.4,
+        "tint": [
+          0.075,
+          0.33,
+          0.42
+        ],
+        "wave_height": 0.032,
+        "wave_hz": 0.7
+      }
+    ],
+    "next_zone": 3
+  },
+  "play_settings": {
+    "controls": {
+      "forward": {
+        "main": "W",
+        "alternate": "Up"
+      },
+      "back": {
+        "main": "S",
+        "alternate": "Down"
+      },
+      "left": {
+        "main": "A",
+        "alternate": "Left"
+      },
+      "right": {
+        "main": "D",
+        "alternate": "Right"
+      },
+      "sprint": {
+        "main": "Shift"
+      },
+      "jump": {
+        "main": "Space"
+      },
+      "interact": {
+        "main": "E"
+      },
+      "mark": {
+        "main": "F"
+      },
+      "retry": {
+        "main": "R"
+      }
+    },
+    "movement_3d": {
+      "walk_speed": 3.15,
+      "sprint_speed": 5.7,
+      "acceleration": 18.0,
+      "sprint_acceleration": 25.0,
+      "braking": 25.0,
+      "air_acceleration": 8.5,
+      "jump_speed": 6.65
+    },
+    "movement_2d": {
+      "walk_speed": 3.8,
+      "sprint_speed": 6.4,
+      "acceleration": 28.0,
+      "braking": 28.0,
+      "jump_speed": 10.4
+    },
+    "camera": {
+      "mode": "Follow",
+      "distance": 6.4,
+      "sensitivity": 1.0,
+      "follow_rate": 12.0
+    }
+  }
+}

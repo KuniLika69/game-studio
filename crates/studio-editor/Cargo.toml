@@ -1,0 +1,28 @@
+[package]
+name = "studio-editor"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+path = "../../src/studio_editor.rs"
+
+[features]
+default = ["editor"]
+editor = ["dep:studio-core", "dep:studio-rules", "dep:bytemuck", "dep:eframe", "dep:glam", "dep:gltf", "dep:image", "dep:png", "dep:rfd", "dep:serde", "dep:serde_json", "dep:sha2", "dep:ureq", "dep:url", "dep:wgpu"]
+
+[dependencies]
+studio-core = { path = "../studio-core", optional = true }
+studio-rules = { path = "../studio-rules", optional = true }
+bytemuck = { workspace = true, optional = true }
+eframe = { workspace = true, optional = true }
+glam = { workspace = true, optional = true }
+gltf = { workspace = true, optional = true }
+image = { workspace = true, optional = true }
+png = { workspace = true, optional = true }
+rfd = { workspace = true, optional = true }
+serde = { workspace = true, optional = true }
+serde_json = { workspace = true, optional = true }
+sha2 = { workspace = true, optional = true }
+ureq = { workspace = true, optional = true }
+url = { workspace = true, optional = true }
+wgpu = { workspace = true, optional = true }

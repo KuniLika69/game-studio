@@ -1,0 +1,14 @@
+{
+  "version": 21,
+  "parts": [],
+  "animation": {"duration": 1.2, "event_time": 0.72, "keys": []},
+  "effect": {"color": [1.0, 0.52, 0.17], "count": 8, "intensity": 1.0, "duration": 0.5},
+  "story": {
+    "conversations": [{
+      "npc_id": 12,
+      "name": "Смотритель",
+      "entry": 9,
+      "nodes": [{"id": 1, "text": "Привет!"}]
+    }]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "key": "studio-double-counter",
+  "title": "Пакет удвоения счётчика",
+  "capability": {
+    "kind": "multiply_counter",
+    "label": "Удвоить счётчик",
+    "factor": 2
+  }
+}

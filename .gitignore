@@ -1,0 +1,4 @@
+/target/
+/releases/
+*.exe
+*.mp4

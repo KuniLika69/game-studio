@@ -1,0 +1,57 @@
+{
+  "format_version": 1,
+  "avatar": {
+    "source": "Knight", "name": "Смотритель", "height": 2.15, "yaw": 0,
+    "idle": 0, "walk": 1, "run": 2, "jump": 3
+  },
+  "world": {
+    "buildings": [
+      {
+        "id": 288230376151711744, "name": "Хранилище маяка",
+        "position": [0, 0, -4.6], "size": [5.6, 3.25, 4.0],
+        "door_width": 1.5, "door_height": 2.5, "door_offset": 0,
+        "door": {"rule_lock": true}, "color": [0.30, 0.51, 0.48]
+      }
+    ],
+    "keys": [
+      {"id": 41, "name": "Медный пропуск", "position": [-1.8, 0, -0.65]},
+      {"id": 42, "name": "Пустой жетон", "position": [1.65, 0, -0.45]}
+    ],
+    "next_key_id": 43
+  },
+  "story": {
+    "quests": [
+      {
+        "id": 7, "title": "Маршрут смотрителя",
+        "description": "Возьми медный пропуск, открой хранилище и дойди до контрольной зоны.",
+        "completion": "Контрольная зона пройдена.",
+        "objective": {"Rules": {"completion_stage": 3}}
+      }
+    ],
+    "next_quest_id": 8
+  },
+  "rules": {
+    "zones": [
+      {"id": 17, "name": "Контрольная зона", "position": [0, 0, -4.7], "size": [2.6, 2.5, 1.8]}
+    ],
+    "rules": [
+      {
+        "id": 11, "name": "Получен допуск", "enabled": true, "once": true,
+        "event": {"Pickup": {"item_id": 41}}, "conditions": [],
+        "actions": [{"SetQuestStage": {"quest_id": 7, "stage": 1}}]
+      },
+      {
+        "id": 12, "name": "Открыть хранилище по пропуску", "enabled": true, "once": true,
+        "event": {"Door": {"door_id": 4611686018427388348}}, "conditions": [{"HasItem": {"item_id": 41}}],
+        "actions": [{"UnlockDoor": {"door_id": 4611686018427388348}}, {"SetQuestStage": {"quest_id": 7, "stage": 2}}]
+      },
+      {
+        "id": 13, "name": "Смотритель пришёл в контрольную зону", "enabled": true, "once": true,
+        "event": {"ActorEnteredZone": {"actor_id": 1, "zone_id": 17}}, "conditions": [{"HasItem": {"item_id": 41}}],
+        "actions": [{"SetQuestStage": {"quest_id": 7, "stage": 3}}]
+      }
+    ],
+    "next_rule": 14,
+    "next_zone": 18
+  }
+}

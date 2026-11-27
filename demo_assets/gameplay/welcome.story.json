@@ -1,0 +1,46 @@
+{
+  "conversations": [
+    {
+      "npc_id": 1,
+      "name": "Собеседник",
+      "entry": 1,
+      "nodes": [
+        {
+          "id": 1,
+          "text": "Добро пожаловать! В доме слева на улице есть отмеченное место. Хочешь его найти?",
+          "choices": [
+            {"id": 1, "text": "Да, покажи, куда идти", "target": 2, "starts_quest": 1},
+            {"id": 2, "text": "Что в этом доме?", "target": 3, "starts_quest": null},
+            {"id": 3, "text": "Поговорим позже", "target": null, "starts_quest": null}
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Открой входную дверь клавишей E. Теперь на плане видно, куда нужно дойти.",
+          "choices": [
+            {"id": 4, "text": "Понял", "target": null, "starts_quest": null}
+          ]
+        },
+        {
+          "id": 3,
+          "text": "В доме две комнаты. Между ними есть дверь, а мебель можно переставить в редакторе.",
+          "choices": [
+            {"id": 5, "text": "Вернуться к вопросу", "target": 1, "starts_quest": null}
+          ]
+        }
+      ],
+      "next_node_id": 4
+    }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "title": "Заглянуть в дом",
+      "description": "Дойди до отмеченного места внутри дома.",
+      "completion": "Ты нашёл отмеченное место.",
+      "objective": {"Visit": {"xz": [0.0, 0.0], "radius": 0.95}}
+    }
+  ],
+  "next_quest_id": 2,
+  "next_choice_id": 6
+}

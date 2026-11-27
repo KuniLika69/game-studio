@@ -1,0 +1,15 @@
+{
+  "version": 21,
+  "parts": [],
+  "animation": {"duration": 1.2, "event_time": 0.72, "keys": []},
+  "effect": {"color": [1.0, 0.52, 0.17], "count": 8, "intensity": 1.0, "duration": 0.5},
+  "story": {
+    "quests": [{
+      "id": 1,
+      "title": "Заглянуть в дом",
+      "description": "Дойди до отметки",
+      "completion": "Ты дошла до отметки",
+      "objective": {"Visit": {"xz": [1.0, 2.0], "radius": -1.0}}
+    }]
+  }
+}

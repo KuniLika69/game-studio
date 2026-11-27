@@ -1,0 +1,15 @@
+[package]
+name = "robot-studio"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "robot-studio"
+required-features = ["editor"]
+
+[features]
+default = ["editor"]
+editor = ["dep:studio-editor", "studio-editor/editor"]
+
+[dependencies]
+studio-editor = { path = "../studio-editor", optional = true, default-features = false }

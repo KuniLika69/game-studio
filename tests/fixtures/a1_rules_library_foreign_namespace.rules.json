@@ -1,0 +1,12 @@
+{
+  "format_version": 1,
+  "templates": [],
+  "extensions": {
+    "manifests": [{
+      "version": 1,
+      "key": "foreign.library/counter",
+      "title": "Удвоить счётчик",
+      "capability": {"kind": "multiply_counter", "label": "Удвоить", "factor": 2}
+    }]
+  }
+}

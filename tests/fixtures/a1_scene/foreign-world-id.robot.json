@@ -1,0 +1,11 @@
+{
+  "version": 21,
+  "parts": [],
+  "animation": {"duration": 1.2, "event_time": 0.72, "keys": []},
+  "effect": {"color": [1.0, 0.52, 0.17], "count": 24, "intensity": 1.0, "duration": 0.55},
+  "world": {
+    "objects": [
+      {"id": 1, "name": "Камень", "kind": "Rock", "position": [0, 0, 0], "size": [1, 1, 1], "color": [0.4, 0.4, 0.4], "solid": true}
+    ]
+  }
+}
